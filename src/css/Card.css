@@ -1,0 +1,25 @@
+.card {
+  background-color: rgb(112, 247, 247);
+  width: 200px;
+  padding: 10px;
+  margin: 20px;
+  transition: 0.3s;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 15px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+}
+
+.card img {
+  width: 200px;
+}
+
+h2,
+p {
+  text-align: center;
+}
